@@ -80,7 +80,7 @@ btn.addEventListener('click', loadData);
 
 async function loadData() {
     try {
-        const response = await fetch('../data/name.json')
+        const response = await fetch('data/name.json')
         const data = await response.json()
 
         console.log(data)
